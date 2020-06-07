@@ -92,3 +92,16 @@
 #modal form button:hover {
   background-color: var(--primary-color-hover);
 }
+
+/* Modal point-created */
+#modal.point .content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#modal.point .content h1 {
+  color: white;
+
+  margin-top: 32px;
+}
